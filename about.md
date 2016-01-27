@@ -4,8 +4,18 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Programming
+---------------
+I have been programming since I was six in BASIC on a <a href="https://en.wikipedia.org/wiki/Commodore_VIC-20">Commodore VIC-20</a> with it's fancy <a href="https://en.wikipedia.org/wiki/Commodore_Datasette">cassette tape drive</a>. Then I moved on to an Apple IIc and Apple Pascal for a time.  In college we continued on with Pascal and ADA.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Dog
+---------------
+Zoe Info goes Here.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Gaming
+---------------
+Street Fighter
+
+Hobbies
+---------------
+Jeeps, Biking, Dogs, Fish.
