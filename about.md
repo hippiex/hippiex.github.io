@@ -12,6 +12,10 @@ Dog
 ---------------
 Zoe Info goes Here.
 
+<img src="/images/zoe/zoe-love.jpg" style="width:30%;height:250px;" />
+<img src="/images/zoe/zoe-sitting.jpg" style="width:30%;height:250px;" />
+<img src="/images/zoe/zoe-water.jpg" style="width:30%;height:250px;" />
+
 Gaming
 ---------------
 Street Fighter
