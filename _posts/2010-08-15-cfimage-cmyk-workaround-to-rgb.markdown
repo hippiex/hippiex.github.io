@@ -4,6 +4,7 @@ title:  "CFIMAGE CMYK Workaround To RGB"
 date:   2010-08-15 16:22:22
 categories: cfimage cfml coldfusion imagemagick
 ---
+
 I deal with a large amount of `CMYK` images for work. Some with Color Profiles and some without. So far `Coldfusion` hasn't been much help. Although it gets closer with each new release. Here is my workaround to convert `CMYK` images into `RGB` until Adobe lets us convert images with the `CFIMAGE` tag.
 
 *Starting Image*
