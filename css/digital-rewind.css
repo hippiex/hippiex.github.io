@@ -1,0 +1,22 @@
+pre,code {
+	background-color:#e0e1bb;
+}
+
+.site-header {
+	background-color:#96975e;
+}
+
+.site-nav {
+	background-color:#96975e;
+}
+
+.post-title, .page-heading {
+	color:#c1c28a;
+}
+
+a {
+	color:#96975e;
+}
+a:visited {
+	color:#96975e;
+}
