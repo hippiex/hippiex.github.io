@@ -3,6 +3,9 @@ layout: post
 title:  "Installing Jekyll on El Capitain 10.11"
 date:   2016-01-27 11:35:00
 categories: jekyll install OSX gem
+author: "Jeff R."
+summary: "Notes for permission issue installing Jekyll on El Capitain ."
+published: true
 ---
 
 Oddly one my [iMac][imac] I had no issues with installing [Jekyll][jekyll], but on my [Macbook Air][macbook-air] it would error trying to install to `/usr/bin/`.  I did update the `gem` installer which may have caused the issues.  So I am noting this here for my future reference and including the link to the solution.

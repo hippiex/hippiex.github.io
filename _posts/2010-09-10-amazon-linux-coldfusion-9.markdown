@@ -3,6 +3,9 @@ layout: post
 title:  "Amazon Linux Coldfusion 9"
 date:   2010-08-15 16:22:22
 categories: amazon ec2 cfml coldfusion 
+author: "Jeff R."
+summary: "Coldfusion 9 install instructions for Amazon Linux on EC2"
+published: true
 ---
 
 For fun this weekend I was playing with the Amazon Linux on EC2  with Coldfusion 9.  Since Amazon Linux is based on CENTOS I figured it shouldn't be too hard to get it to work so why not...  I'll make the disclaimer now that CENTOS and Amazon Linux are not offically supported, but we have been running Coldfusion 7/8 on CENTOS for a couple years now and it seems to work great once you get the installer and apache connector to work.

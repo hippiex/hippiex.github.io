@@ -21,6 +21,12 @@ pre,code {
 	color:#c1c28a;
 }
 
+.post-related {
+	display:block;
+	border-top:1px solid #e0e1bb;
+	padding-top:4px;
+}
+
 a {
 	color:#96975e;
 }

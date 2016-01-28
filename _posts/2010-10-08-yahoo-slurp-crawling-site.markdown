@@ -3,6 +3,9 @@ layout: post
 title:  "Yahoo! Slurp why so greedy?"
 date:   2010-10-08 13:00:00
 categories: mysql
+author: "Jeff R."
+summary: "Fix for Yahoo! Slurp and other crowlers haning your server."
+published: true
 ---
 
 Yesterday our servers were being hammered from IP address : 67.195.37.172 which appears to be the Yahoo indexer.  Then today I read a tweet from Ben Nadel he was having the same thing happen.  So I thought I would write a quick post in case some others were having the same issue.

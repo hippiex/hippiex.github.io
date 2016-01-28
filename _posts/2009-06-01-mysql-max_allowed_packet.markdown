@@ -3,6 +3,9 @@ layout: post
 title:  "MySQL Updating max_allowed_packet"
 date:   2009-06-01 13:00:00
 categories: mysql
+author: "Jeff R."
+summary: "Fixing the annoying max packet error without rebooting the server."
+published: true
 ---
 
 This is just a little note on settings the `max_allowed_packet` in MySQL without rebooting it.  I always forget how to do it when I need to change it quickly for something.

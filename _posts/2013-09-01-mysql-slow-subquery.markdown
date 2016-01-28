@@ -3,6 +3,9 @@ layout: post
 title:  "MySQL Slow Subquery using IN Syntax"
 date:   2009-06-01 13:00:00
 categories: mysql
+author: "Jeff R."
+summary: "Fix for extremely slow queries in MySQL using  WHERE IN ()."
+published: true
 ---
 
 I finally found the correct information today to figure out why some kinds of subqueries take forever to return a result in MySQL. If you are using a subquery with a MySQL `IN()` like this:

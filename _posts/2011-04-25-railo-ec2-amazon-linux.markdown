@@ -2,7 +2,10 @@
 layout: post
 title:  "Installing Railo on EC2 with Amazon Linux"
 date:   2011-04-25 13:00:00
-categories: railo amazon ec2 linuz cfml
+categories: railo amazon ec2 linux cfml
+author: "Jeff R."
+summary: "Instructions and notes for installing Railo on Amazon Linux."
+published: true
 ---
 
 After following the Comments on Ben's blog about EC2 and Railo I dedcided to type up my notes in case they might help anyone. This assumes you know how to setup an account and the firewall. There is a GUI on the amazon site to do all this and setup your security files to SSH. If not google and you can find videos.
