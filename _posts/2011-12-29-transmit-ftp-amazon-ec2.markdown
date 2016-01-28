@@ -5,7 +5,7 @@ date:   2011-12-29 09:05:00
 categories: transmit ftp amazon ec2 linux
 ---
 
-This example is for Amazon Linux EC2 so your milage will vary.  Click the [+] to add a site to transmit:
+This example is for `Amazon Linux EC2` so your mileage will vary.  Click the `[+]` to add a site to [Transmit](https://panic.com/transmit/):
 
 <img src="/images/ec2-transmit/transmit-add.jpg" style="border:1px solid silver;" />
 
