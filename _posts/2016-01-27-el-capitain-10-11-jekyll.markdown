@@ -4,7 +4,7 @@ title:  "Installing Jekyll on El Capitain 10.11"
 date:   2016-01-27 11:35:00
 categories: jekyll install OSX gem
 author: "Jeff R."
-summary: "Notes for permission issue installing Jekyll on El Capitain ."
+summary: "Notes for permission issue installing Jekyll on El Capitain."
 published: true
 ---
 

@@ -4,7 +4,7 @@ title:  "Amazon Linux Coldfusion 9"
 date:   2010-08-15 16:22:22
 categories: amazon ec2 cfml coldfusion 
 author: "Jeff R."
-summary: "Coldfusion 9 install instructions for Amazon Linux on EC2"
+summary: "Coldfusion 9 install instructions for Amazon Linux on EC2."
 published: true
 ---
 

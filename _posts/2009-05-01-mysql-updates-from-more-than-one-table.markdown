@@ -4,7 +4,7 @@ title:  "MySQL Updates from multiple tables"
 date:   2009-05-01 13:00:00
 categories: mysql
 author: "Jeff R."
-summary: "Link to multiple table joins on electrictoolbox.com"
+summary: "Link to multiple table joins on electrictoolbox.com."
 published: true
 ---
 
