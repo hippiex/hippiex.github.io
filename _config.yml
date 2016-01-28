@@ -1,8 +1,8 @@
 # Site settings
-title: Digital Rewind | Jeff's Thoughts
+title: Digital Rewind
 email: jeff@digitalrewind.com
 description: > # this means to ignore newlines until "baseurl:"
-  Thoughts and code for Javascript, CSS, Coldfusion, Lucee, Railo, MariaDB, MySQL and Linux 
+  Jeff's thoughts and code for Javascript, CSS, Coldfusion, Lucee, Railo, MariaDB, MySQL and Linux 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.digitalrewind.com" # the base hostname & protocol for your site
 twitter_username: hippiex
