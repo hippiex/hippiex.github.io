@@ -1,3 +1,6 @@
+---
+layout: null
+---
 User-Agent: *
 Disallow: 
 Sitemap: http://digitalrewind.com/sitemap.xml
