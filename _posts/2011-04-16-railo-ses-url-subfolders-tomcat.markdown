@@ -19,7 +19,7 @@ This is a continuation of my last post. In my effort to not have a million domai
 {% endhighlight %}
 
 The restart `Railo`.
-{% highlight  ansi %}
+{% highlight  text %}
 /opt/railo/railo_ctl restart
 {% endhighlight %}
 

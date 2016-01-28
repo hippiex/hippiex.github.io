@@ -12,7 +12,7 @@ This example is for `Amazon Linux EC2` so your mileage will vary.  Click the `[+
 You need to select `sFTP` as your protocol, enter either your instance name given to you by AWS or the domain you use to access it.  The user will be `ec2-user` with no password.  You should have saved your PEM key file to your local system to you can `SSH` and manage your instance.  I put it in `~/Documents/ec2-keys/[yourkey].pem`. Then go to the command line and change directory to the `~/Documents/ec2-keys/` folder in this case and run :
 
 
-{% highlight  ansi %}
+{% highlight  text %}
 chmod 700 [yourkey].pem
 ssh-add -K [yourkey].pem
 {% endhighlight %}

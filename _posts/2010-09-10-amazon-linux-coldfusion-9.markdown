@@ -10,7 +10,7 @@ I used Basic 64-bit Amazon Linux AMI 1.0 on a Micro T1 instance for my test.  Se
 
 Once you have the instance launched and you are connected you use YUM to install apache:
 
-{% highlight  ansi %}
+{% highlight  text %}
 yum install httpd 
 yum install httpd-devel
 yum install libstdc++.so.5
@@ -20,7 +20,7 @@ yum install libstdc++.so.5
 
 Then Run:
 
-{% highlight  ansi %}
+{% highlight  text %}
 chkconfig httpd on
 {% endhighlight %}
 
