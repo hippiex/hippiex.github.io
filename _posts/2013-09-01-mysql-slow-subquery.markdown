@@ -5,7 +5,7 @@ date:   2009-06-01 13:00:00
 categories: mysql
 ---
 
-I finally found the correct information today to figure out why some kinds of subqueries take forever to come back in mysql. If you are using a subquery with a MYSQL IN() like this:
+I finally found the correct information today to figure out why some kinds of subqueries take forever to return a result in MySQL. If you are using a subquery with a MySQL `IN()` like this:
 {% highlight  sql %}
 select o.ack,o.product
 from orders o
@@ -29,7 +29,7 @@ having    DATE_ADD( DATE_SUB( now( ) , INTERVAL DAYOFMONTH( now( ) ) - 1 DAY ) ,
 on o.ack = old_o.ack
 order by o.ack, o.line
 {% endhighlight %}
-It's interesting on MSSQL that the IN() subquery syntax is much faster.
+It's interesting on MSSQL that the `IN()` subquery the first syntax is much faster.
 
 
 [bugs.mysql.com/bug.php ( Thanks Jeremy Pointer )](http://bugs.mysql.com/bug.php?id=4040)
