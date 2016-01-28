@@ -2,7 +2,7 @@
 layout: post
 title:  "Yahoo! Slurp why so greedy?"
 date:   2010-10-08 13:00:00
-categories: mysql
+categories: internet
 author: "Jeff R."
 summary: "Fix for Yahoo! Slurp and other crowlers haning your server."
 published: true

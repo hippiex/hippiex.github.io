@@ -2,7 +2,7 @@
 layout: post
 title:  "Connecting to EC2 with Transmit for Mac"
 date:   2011-12-29 09:05:00
-categories: transmit ftp amazon ec2 linux
+categories: transmit internet amazon ec2 linux
 author: "Jeff R."
 summary: "Instructions for using the PEM Key file to connect to EC2 instance with Transmit."
 published: true

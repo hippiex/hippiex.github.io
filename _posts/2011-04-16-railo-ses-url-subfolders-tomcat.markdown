@@ -2,7 +2,7 @@
 layout: post
 title:  "Railo SES URL subfolder with Tomcat"
 date:   2011-04-16 13:00:00
-categories: railo ses jetty cfml tomcat
+categories: railo ses cfml tomcat install
 author: "Jeff R."
 summary: "Getting SES URLs to work with the Tomcat install."
 published: true
