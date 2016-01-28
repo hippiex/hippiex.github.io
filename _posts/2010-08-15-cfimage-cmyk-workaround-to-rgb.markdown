@@ -22,13 +22,13 @@ When you try and read this image in Coldfusion 8/9:
 
 It throws the following error:
 
-{% highlight  plaintext %}
+{% highlight  ansi %}
 An exception occurred while trying to read the image.
 Unsupported Image Type
 {% endhighlight %}
 
 This is where `Imagemagick` comes in. We can convert the image to `RGB` and remove the color profiles so we can continue. I chose to use a BASH script that I call with `CFEXECUTE`, but it appears to work calling it directly from `CFEXECUTE`. I had problems in the past with this so I have always done it this way, in case you were wondering.
-{% highlight  plaintext %}
+{% highlight  ansi %}
 #!/bin/bash
 infile=$1
 outfile=$2
