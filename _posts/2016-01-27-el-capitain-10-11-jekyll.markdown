@@ -9,13 +9,13 @@ Oddly one my [iMac][imac] I had no issues with installing [Jekyll][jekyll], but 
 
 Updated gems.
 
-{% highlight  js %}
+{% highlight  plaintext %}
 sudo gem update --system
 {% endhighlight %}
 
 Install Jekyll to /usr/local/bin
 
-{% highlight  js %}
+{% highlight  plaintext %}
 sudo gem install -n /usr/local/bin jekyll
 {% endhighlight %}
 
