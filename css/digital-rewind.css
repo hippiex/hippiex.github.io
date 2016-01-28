@@ -1,9 +1,16 @@
+body {
+	font-family: 'Inconsolata', 'Helvetica', 'Arial', 'sans-serif' ;
+}
+
+
+
 pre,code {
 	background-color:#e0e1bb;
 }
 
 .site-header {
 	background-color:#96975e;
+	font-weight:800;
 }
 
 .site-nav {
