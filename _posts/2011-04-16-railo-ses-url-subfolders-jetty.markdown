@@ -2,7 +2,10 @@
 layout: post
 title:  "Railo SES URL subfolder with Jetty"
 date:   2011-04-16 13:00:00
-categories: railo ses jetty cfml
+categories: railo  ses  jetty  cfml
+tags: "railo ,ses,jetty,cfml"
+author: "Jeff R."
+summary: "Getting SES URLs to work with the Jetty install."
 ---
 
 I've been working my way through learning the ins and outs of Railo over the last few months.  So far I'm impressed, but still trying to figure out all the quirks.
