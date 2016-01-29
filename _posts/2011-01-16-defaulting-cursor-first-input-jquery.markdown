@@ -8,7 +8,8 @@ summary: "Popping the cursor into the first input box on page load."
 published: true
 ---
 
-Here's a short and simple `javascript` using `JQuery`to put the cursor in the first text box on a web page.  I added this to one of our sites to make sure the cursor starts in the different forms / search boxes on all the pages of our site.
+Here's a simple `javascript` example using `JQuery`to put the cursor in the first text box on a web page.  I added this to one of our sites so the cursor starts in the first text box on all the pages of our site.
+
 {% highlight  html %}
 <script type="text/javascript">
 <!-- //
@@ -19,4 +20,4 @@ $("input[type='text']:first").select();
 </script>
 {% endhighlight %}
 
-It's using Jquery to find the `FIRST :  INPUT` tag with a `TYPE="TEXT"` on the page.  Then it selects it to move the cursor.
+It's using JQuery to find the `FIRST :  INPUT` tag with a `TYPE="TEXT"` on the page.  Then it `selects()` it to move the cursor there automatically for the user.
