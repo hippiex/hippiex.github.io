@@ -7,22 +7,21 @@ author: "Jeff R."
 summary: "Notes for permission issue installing Jekyll on El Capitain."
 published: true
 ---
+I am currently updating and moving my blog to Github using [Jekyll][jekyll]. On my [iMac][imac] I had no issues with installing Jekyll, but on my [Macbook Air][macbook-air] it would error trying to install in `/usr/bin/`.  I received a single threading warning on my iMac so I updated the `gem` installer which may have caused the Macbook Air issues.  So I am noting this here for my future reference and including the link to the solution at the bottom.
 
-Oddly one my [iMac][imac] I had no issues with installing [Jekyll][jekyll], but on my [Macbook Air][macbook-air] it would error trying to install to `/usr/bin/`.  I did update the `gem` installer which may have caused the issues.  So I am noting this here for my future reference and including the link to the solution.
-
-Updated gems.
+Update `gem`:
 
 {% highlight  text %}
 sudo gem update --system
 {% endhighlight %}
 
-Install Jekyll to /usr/local/bin
+Install Jekyll to` /usr/local/bin`:
 
 {% highlight  text %}
 sudo gem install -n /usr/local/bin jekyll
 {% endhighlight %}
 
-There are also [Homebrew][homebrew] install instructions, but I really wanted to to work with my normal OS X install since I don't use Ruby for anything, but [Jekyll][jekyll] at the moment.
+There are also [Homebrew][homebrew] install instructions, but I really wanted to to work with my normal  `Mac` install since I don't use Ruby for anything except [Jekyll][jekyll] at the moment.
 
 
 [Jekyll Install troubleshooting OSX 10.11](http://jekyllrb.com/docs/troubleshooting/#jekyll-amp-mac-os-x-1011)
