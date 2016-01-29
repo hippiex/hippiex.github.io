@@ -8,7 +8,7 @@ summary: "Getting SES URLs to work with the Tomcat install."
 published: true
 ---
 
-This is a continuation of my last post. In my effort to not have a million domain names and hosts file edits; I setup my Tomcat server on `EC2` the same way as the `Jetty` server on my laptop :).  This is to get `SES` urls to work  on Tomcat in a subfolder. For `http://my.ec2-server.com/site1/index.cfm/fuseaction/my.page/test/1` to function properly we do something similar to Jetty. This time we edit the `/opt/railo/tomcat/conf/web.xml` file.  Search for `/index.cfm/*`.
+This is a continuation of my other post. In my effort to not have a bunch of domain names and host file edits; I setup my `Tomcat` server on `EC2` the same way as the `Jetty` server on my laptop :).  This is to get `SES` urls working  on `Tomcat` in a subfolder. For `http://my.ec2-server.com/site1/index.cfm/fuseaction/my.page/test/1` to function properly we do something similar to `Jetty`. This time we edit the `/opt/railo/tomcat/conf/web.xml` file.  Search for `/index.cfm/*`.
 
 {% highlight  xml %}
 <servlet-mapping>
