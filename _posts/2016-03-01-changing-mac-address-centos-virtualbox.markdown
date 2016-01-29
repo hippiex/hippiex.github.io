@@ -4,7 +4,7 @@ title:  "Virtualbox changing MAC Address"
 date:   2016-03-01 13:00:00
 categories: virtualbox linux centos 
 author: "Jeff R."
-summary: "Cloning Virtualbox Image causes the netowkring to stop."
+summary: "Cloning Virtualbox Image causes the networking to stop."
 published: false
 ---
 
