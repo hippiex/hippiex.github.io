@@ -8,7 +8,10 @@ summary: "Fix for extremely slow queries in MySQL using  WHERE IN ()."
 published: true
 ---
 
-I finally found the correct information today to figure out why some kinds of subqueries take forever to return a result in MySQL. If you are using a subquery with a MySQL `IN()` like this:
+I found a solution queries that contain a subquery taking forever to return a result in MySQL. 
+
+For example a query in MySQL that uses the `IN()` syntax with a subquery like the following takes a few long time to return a result.
+
 {% highlight  sql %}
 select o.ack,o.product
 from orders o
@@ -20,7 +23,9 @@ group by ack
 having DATE_ADD( DATE_SUB( now( ) , INTERVAL DAYOFMONTH( now( ) ) - 1 DAY ) , INTERVAL -3 MONTH ) max(status_date)))
 order by o.ack, o.line
 {% endhighlight %}
-It takes a few minutes to return a result. If you take the same query and reorder it to put the subquery in the from with a join it comes back almost instanty :
+
+If the same query is reworked to put the subquery in the from with a join it comes back almost instantly.
+
 {% highlight  sql %}
 select o.ack,o.product
 from orders o
@@ -32,7 +37,8 @@ having    DATE_ADD( DATE_SUB( now( ) , INTERVAL DAYOFMONTH( now( ) ) - 1 DAY ) ,
 on o.ack = old_o.ack
 order by o.ack, o.line
 {% endhighlight %}
-It's interesting on MSSQL that the `IN()` subquery the first syntax is much faster.
+
+It's interesting on Microsoft MSSQL that the `IN()` with a subquery is just as fast for me.
 
 
 [bugs.mysql.com/bug.php ( Thanks Jeremy Pointer )](http://bugs.mysql.com/bug.php?id=4040)
