@@ -9,8 +9,5 @@
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 	<link rel="stylesheet" href="{{ "/css/digital-rewind.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	<!-- share -->
-	<script type="text/javascript">var switchTo5x=true;</script>
-	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-	<script type="text/javascript">stLight.options({publisher: "ecde0899-935a-4220-bea4-9215aa115694", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+	{% include share_head.html %}
 </head>

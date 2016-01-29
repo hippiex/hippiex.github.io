@@ -6,7 +6,7 @@ permalink: /about/
 
 Programming
 ---------------
-I have been programming since I was six in BASIC on a <a href="https://en.wikipedia.org/wiki/Commodore_VIC-20">Commodore VIC-20</a> with it's fancy <a href="https://en.wikipedia.org/wiki/Commodore_Datasette">cassette tape drive</a>. Then I moved on to an Apple IIc and Apple Pascal for a time.  In college I continued on with Pascal and ADA for a time. I started with Coldfusion to create sites for the furniture and textile manufacturing industries. I have a worked with Microsft SQL server, Oracle, and MYSQL for my entire career.
+I have been programming since I was six in BASIC on a <a href="https://en.wikipedia.org/wiki/Commodore_VIC-20">Commodore VIC-20</a> with it's fancy <a href="https://en.wikipedia.org/wiki/Commodore_Datasette">cassette tape drive</a>. Then I moved on to an Apple IIc and Apple Pascal for a time.  In college I continued on with Pascal and ADA for a time. I started with Coldfusion to create sites for the furniture and textile manufacturing industries. I have a worked with Microsoft SQL server, Oracle, and MYSQL for my entire career.
 
 Dog
 ---------------
@@ -26,4 +26,6 @@ When I was younger I used to be fairly good at Street Fighter 2+, but my skills 
 
 Hobbies
 ---------------
-Jeeps, Biking, Dog, Fish.
+Jeeps, Biking, Dog, Craft Beer, and Aquariums.
+
+<img src="/images/about/jeep.jpg" style="width:30%;height:250px;" />
