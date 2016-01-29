@@ -8,7 +8,7 @@ summary: "Instructions and notes for installing Railo on Amazon Linux."
 published: true
 ---
 
-After following the Comments on Ben's blog about EC2 and Railo I dedcided to type up my notes in case they might help anyone. This assumes you know how to setup an account and the firewall. There is a GUI on the amazon site to do all this and setup your security files to SSH. If not google and you can find videos.
+After following the comments on Ben's Blog about running `Railo` on `EC2`. I decided to post my notes in case they might help someone. This assumes you know how to setup an account and the firewall on Amazon AWS. There is a GUI on the amazon site to do all this. It can be done pretty easily with a little trial and error.
 
 * Setup an EC2 account and launch an Amazon Linux AMI instance with the security settings to have ports :20, 21, 22, 80, 3306,8888 open.
 * Once it's launched ssh to your new instance as ec2-user
@@ -134,13 +134,15 @@ ctr-w : index.html ( to find the line ) and add index.cfm to the end of the Dire
 service httpd restart
 {% endhighlight %}
 
-Navigate to www.mytestdomain.com and you should be running Railo. This is just a summary of my notes to get everything running. Obviously your milage will vary and you need to know about running Apache,MYSQL, and railo :). 
+Navigate to www.mytestdomain.com and you should be running `Railo`. This is just a summary of my notes to get everything running. Obviously your mileage will vary and it will help to know a bit about running `Apache`, `MySql`, and `Railo`. 
 
 Good Luck.
 
 *Notes and stuff*
 
 {% highlight  text %}
-nano /opt/railo/tomcat/bin/setenv.sh [to setup memory settings for railo]
-/opt/railo/railo_ctl restart [restart railo]
+# memory settings for railo
+nano /opt/railo/tomcat/bin/setenv.sh 
+# restart / start Railo
+/opt/railo/railo_ctl restart
 {% endhighlight %}
