@@ -2,7 +2,11 @@ body {
 	font-family: 'Inconsolata', 'Helvetica', 'Arial', 'sans-serif' ;
 }
 
-
+div.clear {
+	clear:both;
+	display:block;
+	width:100%;
+}
 
 pre,code {
 	background-color:#e0e1bb;
@@ -27,9 +31,40 @@ pre,code {
 	padding-top:10px;
 }
 
+ul.tag-box {
+	display:block;
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+
+ul.tag-box  li {
+    padding: 0px 5px 0px 0px;
+    width:100%;
+    display:block;
+    float:left;
+}
+
+ul.tag-box  li span, .entry-date {
+	color: silver;
+}
+
 a {
 	color:#96975e;
 }
+
 a:visited {
 	color:#96975e;
+}
+
+@media screen and (min-width: 600px) {
+  ul.tag-box  li {
+    width:45%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+    ul.tag-box  li {
+    width:22%;
+  }
 }

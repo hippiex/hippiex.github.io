@@ -17,7 +17,7 @@ permalink: /categories/
   {% endif %}
 {% assign tags_list = nil %}
 </ul>
-
+<div class="clear"></div>
 {% for tag in site.categories %}
   <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
   <ul class="post-list">
@@ -34,3 +34,4 @@ permalink: /categories/
     {% assign group = nil %}
   </ul>
 {% endfor %}
+
