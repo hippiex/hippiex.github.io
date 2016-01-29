@@ -4,7 +4,7 @@ title:  "Yahoo! Slurp why so greedy?"
 date:   2010-10-08 13:00:00
 categories: internet
 author: "Jeff R."
-summary: "Fix for Yahoo! Slurp and other crowlers haning your server."
+summary: "Fix for Yahoo! Slurp and other crawlers hanging your server."
 published: true
 ---
 
