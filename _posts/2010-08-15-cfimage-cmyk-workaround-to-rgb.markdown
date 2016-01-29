@@ -8,15 +8,15 @@ summary: "Working with CMYK images in CFML with imagemagick and CFIMAGE."
 published: true
 ---
 
-I deal with a large amount of `CMYK` images for work. Some with Color Profiles and some without. So far `Coldfusion` hasn't been much help. Although it gets closer with each new release. Here is my workaround to convert `CMYK` images into `RGB` until Adobe lets us convert images with the `CFIMAGE` tag.
+I deal with a large amount of `CMYK` images from my clients. Some with color profiles and some without. So far `Coldfusion` hasn't been much help processing them. Although it gets closer with each new release. Here is my workaround to convert `CMYK` images into `RGB` until Adobe lets us convert images with the `CFIMAGE` tag.
 
 *Starting Image*
 
 <img src="/images/cfimage-cmyk-rgb/bailey-cmyk.jpg" style="" />
 
-Above is the starting image of my faithful coding companion Bailey. I converted it to `CMYK` and added the U.S. Web Coated (SWOP) v2 color profile in Photoshop. 
+Above is the starting image of my faithful coding companion Bailey. I converted the image to `CMYK` and added the U.S. Web Coated (SWOP) v2 color profile in `Photoshop`. 
 
-When you try and read this image in Coldfusion 8/9:
+When you try and read this image in `Coldfusion 8/9`:
 
 {% highlight  xml %}
 <!--- Try to get image info --->
@@ -80,8 +80,9 @@ timeout="30" variable="msg" />
 
 <img src="/images/cfimage-cmyk-rgb/bailey-rgb.jpg" style="" />
 
-So here is the new image of Bailey that is now RGB and all the Profile information removed. The coloring of the image changes slightly when you convert it to RGB from `CMYK`, but so far I haven't found a way to get it any closer. You can also resize and get the image info with `Imagemagick`, but I am doing that with `CFIMAGE`. In hopes that I can one day just comment this out and all the operations will work consistently. Maybe Adobe will fix that in the next release so this can all be done in `CFIMAGE`.
-Hope this helps out others struggling with the same issue. This works well ( I have converted thousands of images) on Linux and OS X. I haven't tried it on windows, but I would assume it would work by either calling it directly or wrapping it in a BATCH file. If anyone tries it on Windows let me know.
+So here is the new image of Bailey converted to `RGB` and all the profile information removed. The coloring of the image changes slightly when you convert it to `RGB` from `CMYK`, but so far I haven't found a way to get it any closer. You can also resize and get the image info with `Imagemagick`, but I am doing that with `CFIMAGE` in hopes that I can one day just comment this out and all the operations will work consistently no matter the color format. Maybe Adobe will fix that in the next release so this can all be done in `CFIMAGE`.
+
+Hope this helps out others struggling with the same issue. This works well ( I have converted thousands of images) on `Linux` and `OSX`. I haven't tried it on windows, but I would assume it would work by either calling it directly or wrapping it in a BATCH file. If anyone tries it on Microsft Windows let me know.
 
 *Links*
 
