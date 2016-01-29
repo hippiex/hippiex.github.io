@@ -8,7 +8,7 @@ summary: "Fixing the annoying max packet error without rebooting the server."
 published: true
 ---
 
-This is just a little note on settings the `max_allowed_packet` in MySQL without rebooting it.  I always forget how to do it when I need to change it quickly for something.
+This is just short post on settings the `max_allowed_packet` in MySQL without rebooting it.  I always forget how to do it when I need to change it quickly for whatever reason.
 
 {% highlight  js %}
 set global max_allowed_packet = 32 * 1024 * 1024;
