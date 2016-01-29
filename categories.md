@@ -2,6 +2,7 @@
 layout: page
 title: Categories
 permalink: /categories/
+summary: "A list of all my posts by category."
 ---
 
 <ul class="tag-box inline">

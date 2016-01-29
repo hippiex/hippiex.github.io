@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+summary: "A little bit of information about me."
 ---
 
 Programming

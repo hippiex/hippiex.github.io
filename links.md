@@ -2,6 +2,7 @@
 layout: page
 title: Links
 permalink: /links/
+summary: "My links to interesting things."
 ---
 
 These are links to the software I use on a daily basis.
