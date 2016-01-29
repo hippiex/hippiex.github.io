@@ -8,9 +8,9 @@ summary: "Fix for Apache not serving Lucee pages on Amazon Linux. "
 published: true
 ---
 
-After installing [Lucee 4.5.2.018](http://lucee.org) with the [Vivio Technologies](https://www.viviotech.net) installer on Amazon Linux it wasn't serving cfml pages. Since Amazon Linux is a bit different the installer doesn't install the connector correctly.
+After installing [Lucee 4.5.2.018](http://lucee.org) with the [Vivio Technologies](https://www.viviotech.net) installer on Amazon Linux with `Apache` it wasn't serving `cfml` pages. Since Amazon Linux is a bit different the installer doesn't install the connector correctly.
 
-So here's what I did to fix the issue on the 64bit version of Amazon Linux after running the [lucee-4.5.2.018-pl0-linux-x64-installer.run](http://lucee.org/downloads.html) installer:
+Here is my fix for the issue on the 64bit version of Amazon Linux after running the [lucee-4.5.2.018-pl0-linux-x64-installer.run](http://lucee.org/downloads.html) installer:
 
 {% highlight  text %}
 #copy the mod_cfml for Apache 2.2 64bit from the lucee directory
