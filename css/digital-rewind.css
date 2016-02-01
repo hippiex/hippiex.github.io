@@ -57,14 +57,31 @@ a:visited {
 	color:#96975e;
 }
 
+div.links-list {
+	width:100%;
+}
+
+div.links-list a {
+	width:100%;
+	display:block;
+}
+
 @media screen and (min-width: 600px) {
   ul.tag-box  li {
     width:45%;
   }
+  
+  div.links-list a {
+  	width:45%;
+  }
 }
 
 @media screen and (min-width: 800px) {
-    ul.tag-box  li {
+  ul.tag-box  li {
     width:22%;
+  }
+  
+  div.links-list a {
+  	width:22%;
   }
 }
