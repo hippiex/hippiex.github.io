@@ -5,19 +5,20 @@ permalink: /categories/
 summary: "A list of all my posts by category."
 ---
 
-<ul class="tag-box inline">
+<div class="links-list">
 {% assign tags_list = site.categories %}
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %}
-      <li><a href="#{{ tag }}">{{ tag | capitalize }} <span> | {{ site.tags[tag].size }}</span></a></li>
+      <a href="#{{ tag }}">{{ tag | capitalize }} <span> | {{ site.tags[tag].size }}</span></a>
     {% endfor %}
   {% else %}
     {% for tag in tags_list %}
-      <li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span> | {{ tag[1].size }}</span></a></li>
+      <a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span> | {{ tag[1].size }}</span></a>
     {% endfor %}
   {% endif %}
 {% assign tags_list = nil %}
-</ul>
+</div>
+
 <div class="clear"></div>
 {% for tag in site.categories %}
   <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>

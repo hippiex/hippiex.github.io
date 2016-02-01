@@ -54,23 +54,6 @@ a.site-title {
 	padding-top:10px;
 }
 
-ul.tag-box {
-	display:block;
-	list-style-type:none;
-	padding:0;
-	margin:0;
-}
-
-ul.tag-box  li {
-    padding: 0px 5px 0px 0px;
-    width:100%;
-    display:block;
-    float:left;
-}
-
-ul.tag-box  li span, .entry-date {
-	color: silver;
-}
 
 a {
 	color:#96975e;
@@ -99,6 +82,15 @@ div.links-list a:hover {
 	background-color:#000;
 	color:#96975e;
 }
+
+div.links-list a span {
+	color: #c1c28a;
+}
+
+.entry-date {
+	color: #c1c28a;
+}
+
 
 @media screen and (min-width: 600px) {
   ul.tag-box  li {
