@@ -7,6 +7,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://digitalrewind.com" # the base hostname & protocol for your site
 twitter_username: hippiex
 github_username:  hippiex
+linkedin_username: digitalrewind
+
 gems:
   - jekyll-sitemap
 

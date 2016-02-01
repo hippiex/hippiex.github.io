@@ -12,6 +12,13 @@ pre,code {
 	background-color:#e0e1bb;
 }
 
+
+span.icon.icon--linkedin {
+	width:24px;
+	height:16px;
+}
+
+
 .site-header {
 	background-color:#96975e;
 	font-weight:800;
