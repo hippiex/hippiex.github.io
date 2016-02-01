@@ -20,6 +20,22 @@ pre,code {
 .site-nav {
 	background-color:#96975e;
 }
+.site-nav a{
+	text-decoration:none;
+	padding:5px;
+}
+a.site-title {
+	padding-left:5px;
+	padding-right:5px;
+}
+.site-nav a,a.site-title:hover{
+	text-decoration:none;
+}
+.site-nav a:hover , a.site-title:hover {
+	background-color:#000;
+	color:#96975e;
+
+}
 
 .post-title, .page-heading {
 	color:#c1c28a;
@@ -64,6 +80,17 @@ div.links-list {
 div.links-list a {
 	width:100%;
 	display:block;
+	height:3em;
+	line-height:3em;
+	background-color:#96975e;
+	color:#000;
+	text-align:center;
+	margin:5px;
+	text-decoration:none;
+}
+div.links-list a:hover {
+	background-color:#000;
+	color:#96975e;
 }
 
 @media screen and (min-width: 600px) {
@@ -73,6 +100,7 @@ div.links-list a {
   
   div.links-list a {
   	width:45%;
+  	float:left;
   }
 }
 
@@ -83,5 +111,6 @@ div.links-list a {
   
   div.links-list a {
   	width:22%;
+  	float:left;
   }
 }
