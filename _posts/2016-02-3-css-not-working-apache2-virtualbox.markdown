@@ -20,6 +20,6 @@ systemlctl restart httpd
 
 {% endhighlight %}
 
-<img src="/images/virtualbox/centos-shared-folders-apache2.png" style="width:100%;border:1px solid silver;" />
+<img src="/images/virtualbox/centos-shared-folders-apache2.png" style="width:100%;border:1px solid silver;max-width:599px;" />
 
 [apache-fix]: http://stackoverflow.com/questions/6298933/shared-folder-in-virtualbox-for-apache
