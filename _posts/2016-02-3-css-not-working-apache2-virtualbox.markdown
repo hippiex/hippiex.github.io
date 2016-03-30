@@ -2,7 +2,7 @@
 layout: post
 title:  "Virtualbox shared folder CSS Files not Updating"
 date:   2016-02-03 19:00:00
-categories: notes linux virtualbox css apache2
+categories: notes linux virtualbox css apache
 author: "Jeff R."
 summary: "Apache2 Corrupting CSS files on a Virtualbox Share with Sendfile enabled"
 published: true
