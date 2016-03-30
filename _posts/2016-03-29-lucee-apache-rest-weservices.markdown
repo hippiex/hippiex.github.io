@@ -2,7 +2,7 @@
 layout: post
 title:  "Setup of Lucee REST Web Services on Apache"
 date:   2016-03-29 13:00:00
-categories: virtualbox linux centos 
+categories: linux lucee cfml
 author: "Jeff R."
 summary: "Getting REST Componets to work on Lucee / Apache / Linux"
 published: true
