@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Adding SSL to Apache on EC2 with Amazon Linux"
-date:   2016-03-01 13:00:00
+date:   2016-03-03 13:00:00
 categories: ec2 linux apache 
 author: "Jeff R."
 summary: "Notes for creating SSL certificates and adding to Apache on EC2 with Amazon Linux"
