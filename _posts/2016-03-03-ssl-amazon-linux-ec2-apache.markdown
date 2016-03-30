@@ -8,7 +8,7 @@ summary: "Notes for creating SSL certificates and adding to Apache on EC2 with A
 published: true
 ---
 
-These notes assume you have Apache installed and working on EC2 with Amazon Linux, but it's fairly similar for other versions of linux.
+These notes assume you have Apache installed and working on EC2 with Amazon Linux, but it's fairly similar for other versions of Linux.
 
 ### Install OpenSSL and the Apache Connector
 
@@ -66,7 +66,7 @@ chmod 600 /etc/pki/tls/certs/domain-name-bundle.crt
   
 {% endhighlight %}
 
-It's important to change the permissions on the file sor Apache and OpenSSL will not work.
+It's important to change the permissions on the file for Apache and OpenSSL will not work.
 
 ### Configure Apache SSL
 
