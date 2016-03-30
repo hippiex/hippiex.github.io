@@ -11,6 +11,7 @@ published: true
 I was pulling my hair out to get Lucee 4.5 to recognize REST CFCs on my Amazon EC2 server running Apache.  I am really writing this up as notes so I can find it later.
 
 ###Step 1
+
 Go to the /etc/httpd/conf directory on your linux machine and edit the httpd.conf file.
 
 {% highlight  text %}
