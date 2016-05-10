@@ -17,7 +17,7 @@ Some more notes on switching over from Coldfusion to Lucee server.  I have a cus
 <p>
 	This page is running!
 </p>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+LuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLucee
 		
 <cfset sleep(10000) />
 
@@ -27,7 +27,7 @@ Some more notes on switching over from Coldfusion to Lucee server.  I have a cus
 
 {% endhighlight %}
 
-( The multitude of HTML escaped spaces are to fill up the buffer to test the [CFFLUSH][cfflush] and the sleep() function is to simulate a long running process. )
+( The multitude of "Lucee"s are to fill up the buffer to test the [CFFLUSH][cfflush] and the sleep() function is to simulate a long running process. There appears to be a minimum you can send back with a flush no matter what the interval is )
 
 Since this works it's not a Lucee/Apache issue.  After reviewing the fusebox4.runtime.cfmx.cfm there is a [CFPROCESSINGDIRECTIVE][cfprocessingdirective] tag for suppressing white space wrapped around the parsed files included by the framework.  So the following code in Lucee doesn't [CFFLUSH][cfflush] as expected. It waits for the entire page to run then processes the [CFPROCESSINGDIRECTIVE][cfprocessingdirective] and sends back the data.
 
@@ -38,7 +38,7 @@ Since this works it's not a Lucee/Apache issue.  After reviewing the fusebox4.ru
 <p>
 	This page is running!
 </p>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		LuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLuceeLucee
 		
 <cfset sleep(10000) />
 
